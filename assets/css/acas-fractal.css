@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Typographic Elements */
+.Prose ul > li {
+  list-style-type: disc;
+}
+.Prose * + h3 {
+  margin-top: 1.25em;
+}
+
+
+/* Main header */
+.Header {
+  background-color: #008C95;
+  color: #fff;
+}
+.Header-navToggle svg {
+    fill: #fff;
+}
+
+/* Left-hand navigation */
+.Tree-title {
+  font: bold 0.875rem/1.66667 "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgba(0,0,0, 0.85);
+}
+.Tree-entityLink {
+  font-size: .795rem;
+  text-transform: uppercase;
+}
+.Tree-collectionLabel {
+  font: normal 0.825rem/1.66667 "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-bottom: 0.15rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+[dir="ltr"] .Tree-collectionLabel span {
+  padding-left: 1rem;
+}
+.Tree-item:last-child {
+  padding-bottom: 1rem;
+}
+.Tree-collectionItems ul > li {
+  padding-left: 1.5em;
+}
+[dir="ltr"] .Tree-depth-2 .Tree-entityLink {
+  padding-left: 2.5rem;
+}
+/*-------
+Custom Code
+-------*/
+
+/* Colour blocks in branding document */
+.color-panel {
+  border-radius: 50%;
+  color: #fff;
+  float: left;
+  padding: 3em 0;
+  margin: 1em;
+  height: 10em;
+  width: 10em;
+  text-align: center;
+}
+
+.color-panel h2 {
+  color: #fff;
+}
+
+#acas-lime {
+  background-color: #CEDC00;
+}
+#acas-teal {
+  background-color: #008C95;
+}
+#acas-blue {
+  background-color: #005EB8;
+}
+#acas-purple {
+  background-color: #772583;
+}
+#acas-maroon {
+  background-color: #910048;
+}
+#acas-grey {
+  background-color: #4D4D4D;
+}
