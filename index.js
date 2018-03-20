@@ -8,7 +8,9 @@ const mandelbrot = require('@frctl/mandelbrot');
  */
 const subTheme = mandelbrot({
     skin: "teal",
-    styles: ['default', '/css/acas-fractal.css'] // link to the default stylesheet followed by a custom one
+    favicon: '/themes/acas-fractal-theme/images/favicon.ico',
+    panels: ["html", "resources", "notes", "info"],
+    styles: ['default', '/themes/acas-fractal-theme/css/acas-fractal.css'] // link to the default stylesheet followed by a custom one
 });
 
 /*
@@ -19,12 +21,11 @@ subTheme.addLoadPath(__dirname + '/views');
 /*
  * Specify the static assets directory that contains the custom stylesheet.
  */
-subTheme.addStatic(__dirname + '/assets', '/');
+subTheme.addStatic(__dirname + '/assets', '/themes/acas-fractal-theme/');
 
 /*
  * Specify the directory that contains the custom favicon.
  */
-subTheme.favicon();
 
 /*
  * Export the customised theme instance so it can be used in Fractal projects
