@@ -1,17 +1,17 @@
 {
-  "_from": "@acasdigital/acas-fractal-theme",
-  "_id": "@acasdigital/acas-fractal-theme@1.0.0",
+  "_from": "@acas-digital-inovation/acas-fractal-theme",
+  "_id": "@acas-digital-innovation/acas-fractal-theme@1.1.0",
   "_inBundle": false,
   "_integrity": "sha512-rOgrjvHqII/eFgK67BTSqwDQ8POq4LqwVSSPVQg+4N6MA9jCRMbN0SUxSDM5tbSB8Outsh7Af1ZUxJPbhi91ow==",
-  "_location": "/@acasdigital/acas-fractal-theme",
+  "_location": "/@acas-digital-innovation/acas-fractal-theme",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@acasdigital/acas-fractal-theme",
-    "name": "@acasdigital/acas-fractal-theme",
-    "escapedName": "@acasdigital%2facas-fractal-theme",
-    "scope": "@acasdigital",
+    "raw": "@acas-digital-inovation/acas-fractal-theme",
+    "name": "@acas-digital-inovation/acas-fractal-theme",
+    "escapedName": "@acas-digital-inovation%2facas-fractal-theme",
+    "scope": "@acas-digital-innovation",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -20,28 +20,27 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@acasdigital/acas-fractal-theme/-/acas-fractal-theme-1.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/@acas-digital-innovation/acas-fractal-theme/-/acas-fractal-theme-1.1.0.tgz",
   "_shasum": "bd0637e61d5374794045c495386845011cd54270",
-  "_spec": "@acasdigital/acas-fractal-theme",
-  "_where": "/Users/vaultboy/acas-component-library",
+  "_spec": "@acas-digital-innovation/acas-fractal-theme",
   "author": {
-    "name": "“Luka",
-    "email": "“luka@lukaalexander.com”",
-    "url": "“www.lukaalexander.com”"
+    "name": "Acas Digital Innovation",
+    "email": "digitalinnovation@acas.org.uk",
+    "url": "https://www.acas.org.uk"
   },
   "bugs": {
     "url": "https://github.com/luka-alexander/acas-fractal-theme/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Acas Digital fractal theme for fractal component libraries",
+  "description": "Acas Digital theme for fractal component libraries",
   "homepage": "https://github.com/luka-alexander/acas-fractal-theme#readme",
   "license": "MIT",
   "main": "index.js",
-  "name": "@acasdigital/acas-fractal-theme",
+  "name": "@acas-digital-innovation/acas-fractal-theme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luka-alexander/acas-fractal-theme.git"
+    "url": "git+https://github.com/acasdigital/acas-fractal-theme.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
